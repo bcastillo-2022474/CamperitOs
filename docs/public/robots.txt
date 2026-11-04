@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bcastillo-2022474.github.io/CamperitOs/sitemap-index.xml
