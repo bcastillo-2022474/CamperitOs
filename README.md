@@ -26,7 +26,7 @@ Estamos empezando, así que por ahora la mejor forma de ayudar es opinar y propo
 - Abrí un **issue** con ideas, preguntas o propuestas.
 - Si querés contribuir con código o documentación, hacelo con un pull request y firmá tus commits con `Signed-off-by` ([DCO](https://developercertificate.org/)).
 
-Contacto: `[CONTACTO]`
+Contacto: `https://www.instagram.com/sudoers.os`
 
 ## Licencia
 
