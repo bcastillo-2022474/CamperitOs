@@ -389,3 +389,78 @@ header.header > div.header > .sl-flex:nth-child(2) {
 	margin-inline-start: 0 !important;
 	padding-inline-start: 0 !important;
 }
+
+/* Mobile */
+@media (max-width: 49.99rem) {
+	:root {
+		--sl-nav-height: 3.75rem;
+		--sl-content-pad-x: 1.25rem;
+	}
+	.site-title img {
+		width: 34px;
+		height: 34px;
+	}
+	.site-title::after {
+		padding-left: 0.75rem;
+		font-size: 0.875rem;
+	}
+	site-search button[data-open-modal] {
+		min-height: 44px;
+		min-width: 44px;
+		padding-inline: 0;
+		border-width: 2px;
+		justify-content: center;
+	}
+	starlight-menu-button button {
+		min-width: 44px;
+		min-height: 44px;
+		border: 2px solid var(--ink);
+		border-radius: 999px;
+		background: var(--ink);
+		color: var(--white);
+		box-shadow: none;
+	}
+	mobile-starlight-toc nav {
+		border: 0;
+		border-bottom: 1px solid var(--soft-line);
+		background: var(--white);
+	}
+	mobile-starlight-toc summary {
+		min-height: 44px;
+		border: 0;
+		background: transparent;
+	}
+	.content-panel {
+		padding-block: 1.25rem;
+	}
+	.sl-markdown-content h2 {
+		margin-top: 2.25rem;
+	}
+	.sidebar-pane {
+		background: var(--white);
+	}
+	.sidebar-content a {
+		min-height: 48px;
+		font-size: 1rem;
+	}
+	.pagination-links {
+		grid-template-columns: 1fr;
+	}
+	.pagination-links a {
+		width: calc(100% - 4px);
+		padding: 14px 22px;
+	}
+	.starlight-aside {
+		padding: 1.25rem 1.5rem;
+		border-radius: 20px;
+	}
+	/* Wide tables scroll inside themselves instead of the page. */
+	.sl-markdown-content table {
+		display: block;
+		overflow-x: auto;
+	}
+	.sl-link-button {
+		width: calc(100% - 4px);
+		text-align: center;
+	}
+}
