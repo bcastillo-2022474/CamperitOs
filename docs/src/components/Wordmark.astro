@@ -1,0 +1,10 @@
+---
+// Hand-drawn Camperitos wordmark. The path data is the official asset and must not be redrawn.
+import raw from '../assets/camperitos-wordmark.svg?raw';
+
+const svg = raw
+	.replace('role="img" aria-label="Camperitos"', 'aria-hidden="true" focusable="false" class="wordmark"')
+	.trim();
+---
+
+<Fragment set:html={svg} />
