@@ -18,6 +18,8 @@ export default defineConfig({
 			locales: { root: { label: 'Español', lang: 'es' } },
 			customCss: ['./src/styles/custom.css'],
 			head: [
+				{ tag: 'link', attrs: { rel: 'icon', href: `${BASE}/favicon.png`, type: 'image/png', sizes: '512x512' } },
+				{ tag: 'link', attrs: { rel: 'apple-touch-icon', href: `${BASE}/apple-touch-icon.png` } },
 				{ tag: 'meta', attrs: { property: 'og:image', content: `${SITE}${BASE}/og.png` } },
 				{ tag: 'meta', attrs: { property: 'og:image:width', content: '1200' } },
 				{ tag: 'meta', attrs: { property: 'og:image:height', content: '630' } },
